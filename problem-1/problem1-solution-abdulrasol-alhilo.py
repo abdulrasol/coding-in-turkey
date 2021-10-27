@@ -1,9 +1,8 @@
 # get ingredients and frige items from chef and store it as list after removing unwanted chars
 indgrs = input('enter ingredients to cook something\nas tomato, onion, lettuce: ').replace(
-    ' ', '').split(',')
-
+    ' ', '').lstrip(',').rstrip(',').split(',')
 fridge = input('enter things that availble in fridge same way before: ').replace(
-    ' ', '').lstrip(',').split(',')
+    ' ', '').lstrip(',').rstrip(',').split(',')
 
 
 def validateRecipe(fridge, ingredients):
@@ -17,4 +16,4 @@ def validateRecipe(fridge, ingredients):
     return availableItem
 
 
-validateRecipe(fridge, indgrs)
+print(validateRecipe(fridge, indgrs))
