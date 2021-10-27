@@ -8,4 +8,8 @@ just type cd problem-0 then type ./run.sh
 
 just type cd problem-1 then type ./run.sh
 
+## solutions for problem 01 in folder problem-2
+
+just type cd problem-2 then type ./run.sh
+
 coded with python
