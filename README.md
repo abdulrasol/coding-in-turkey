@@ -1,3 +1,11 @@
 # coding-in-turkey
-## solutions for problem 01 in folder problem-0
+
+## solutions for problem 00 in folder problem-0
+
 just type cd problem-0 then type ./run.sh
+
+## solutions for problem 01 in folder problem-1
+
+just type cd problem-1 then type ./run.sh
+
+coded with python
